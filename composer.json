@@ -1,0 +1,32 @@
+{
+    "name": "vinz/lgpd",
+    "description": "Pacote de suporte para LGPD em laravel",
+    "type": "library",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vinz\\Lgpd\\LgpdServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Vinz\\Lgpd\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/support": "^5.5 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Marangoni",
+            "email": "viniciusmarangoni@quattromani.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
